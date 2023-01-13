@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-conf
+data:
+  database: test
+  host: mysql #should be same as the mysql container name in mysql-deployment.yml
