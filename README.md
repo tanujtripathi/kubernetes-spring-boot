@@ -6,5 +6,6 @@
 ## Project
 1. Create spring boot app with mysql dependency
 2. build its image using Dockerfile
-3. Get the deployement yaml for mysql that will use secrets and configMaps
-4. kubectl apply -f . (this will create secret, configMap, deployments)
+3. PUSH to the docker registry
+4. Get the deployement yaml for mysql that will use secrets and configMaps
+5. kubectl apply -f . (this will create secret, configMap, deployments)
